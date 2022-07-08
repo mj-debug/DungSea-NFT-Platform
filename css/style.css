@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "NotoSans-Medium.ttf" ;
+    src: url(../fonts/Noto-Sans/NotoSans-Medium.ttf);
+}
+body{
+    width: 1440px;
+    height: 882px;
+    position: relative;
+    color: #FFFFFF;
+    background-color: #252C39;
+    font-family: "NotoSans-Medium.ttf";
+}
+/* nav bar section */
+.nav-bar{
+    display: flex;
+    width: 1240px;
+    height: 40px;
+    justify-content: space-evenly;
+}
+
+/* logo */
+.logo{
+    margin-top: 35px;
+    margin-left: 8px;
+
+}
+/* logo */
+
+/* menu items */
+.menu-items{
+    margin-top: 30px;
+    margin-left: 163px;
+}
+.menu-items > ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu-items >  ul > li{
+    list-style-type: none;
+    margin-right: 25px;
+}
+.menu-items >  ul > .home > div > img{
+    margin-bottom: 12px;
+}
+.menu-items >  ul > .design > div{
+    display: flex;
+}
+.menu-items >  ul > .design > div > img{
+    width: 15px;
+    height: 8.33px;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+.menu-items >  ul > .developer > div{
+    display: flex;
+}
+.menu-items >  ul > .developer > div > img{
+    width: 15px;
+    height: 8.33px;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+.menu-items >  ul > .projects > div{
+    display: flex;
+}
+.menu-items >  ul > .projects > div > img{
+    width: 15px;
+    height: 8.33px;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+/* .nav-bar > div{
+    position: absolute;
+    width: 35px;
+    height: 0px;
+    left: 1162px;
+    top: 32px;
+    transform: rotate(90deg);
+} */
+/* create account */
+.nav-bar> button{
+    margin-top: 25px;
+    border-radius: 100px;
+    position: absolute;
+    right: 1px;
+    border:2px solid #FEAA69;
+    background-color: transparent;
+    
+}
+.nav-bar > button > p{
+    font-size: 16px;
+    /* line-height: 24px; */
+    padding: 8px 8px;
+    margin: 0px 15px;
+    margin: 0px 9px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+/* create account */
+
+/* menu items */
+
+
+
+/* hero section */
+.main{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.main > .main-1{
+    margin-bottom: 30px;    
+}
+.main > .main-1 > .p1{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+}
+.main > .main-1 > .p2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: #FEAA69;
+}
+.main > .main-2{
+    margin-bottom: 30px;
+}
+.main > .main-2 > p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.main > button{
+    padding: 10px 30px;
+    border-radius: 100px;
+    border: 0px;
+    background: linear-gradient(to right, #FEAA69, #7B56C9);
+}
+.main > button > p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+   
+}
+/* image */
+.image > img{
+    position: absolute;
+    width: 950px;
+    height: 950px;
+    left: 516px;
+    top: -4px;
+}
+/* image */
+/* hero section */
+
+.steps{
+    position: absolute;
+    width: 622.79px;
+    height: 49.71px;
+    /* left: 10px; */
+    top: 312px;
+}
+.steps > .step-1{
+    position: absolute;
+    width: 180.87px;
+    height: 76.71px;
+    left: 100px;
+    top: 412px;
+}
+.steps > .step-1 > div{
+    display: flex;
+}
+.steps > .step-1 > div > img{   
+    width: 29.75px;
+    height: 29.75px;
+}
+.steps > .step-1 > div >p{
+    margin-top: 5px;
+    margin-left: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.5275px;
+}
+.steps > .step-1 > p{
+    margin-left: 45px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11.7445px;
+}
+.steps > .step-2{
+    position: absolute;
+    width: 181.06px;
+    height: 79.71px;
+    left: 320.87px;
+    top: 412px;
+}
+.steps > .step-2 > div{
+    display: flex;
+}
+.steps > .step-2 > div > img{   
+    width: 29.75px;
+    height: 29.75px;
+}
+.steps > .step-2 > div >p{
+    margin-top: 5px;
+    margin-left: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.5275px;
+}
+.steps > .step-2 > p{
+    margin-left: 45px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.5275px;
+}
+.steps > .step-3{
+    position: absolute;
+    width: 180.87px;
+    height: 60.71px;
+    left: 541.93px;
+    top: 412px;
+}
+.steps > .step-3 > div{
+    display: flex;
+    align-self: center;
+}
+.steps > .step-3 > div > img{   
+    width: 29.75px;
+    height: 29.75px;
+}
+.steps > .step-3 > div >p{
+    margin-top: 5px;
+    margin-left: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.5275px;
+}
+.steps > .step-3 > p{
+    margin-left: 45px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.5275px;
+}
